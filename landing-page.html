@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <style>
+    /* *{
+        outline: 1px solid black;
+    } */
+    /* /* first-section */
+    .f-section{
+        background-color: #f9f3e5;
+    }
+    .f-section h2{
+        color: #a8674c;
+        font-weight: 800;
+    }
+    .f-section h1{
+        color: #a86446;
+        font-weight: 800;
+    }
+    .f-section h2{
+        color: #a8674c;
+        font-weight: 400;
+        border-bottom: #a86446 1px solid;
+    }   
+    .f-section a{
+        background-color: #5c8271;
+        font-weight: bold;
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    /* second section */
+    .s-section{
+        background-color: #a86446;
+        color: #f9f3e5; 
+    }
+    .s-section h6{
+        border-bottom: 1px solid white;
+    }
+    
+    /* third section */
+    .t-section{
+        background-color: #f9f3e5;
+    }
+    .t-section .card{
+        background-color: #5c8271;
+        color: #f9f3e5;
+    }
+    .t-section .card .card-subtitle{
+        color: #81b8a1;
+    }
+    .t-section .plan{
+        background-color: #a86446;
+    }
+    .t-section h2{
+        color: #a86446;
+    }
+    .t-section .plan h3{
+        font-weight: bold;
+    }
+    .t-section .plan h6{
+        font-weight: bold;
+    }
+    .t-section .edit-section h6{
+        color: #5c8271;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .t-section .edit-section p{
+        color: #a86446;
+        font-size: 16px;
+
+    }
+     /*4th section  */
+    .fth-section{
+        background-color: #a86446;
+    }
+    .fth-section  h1{
+        color: #f9f3e5;
+    }
+    .fth-section .card{
+        background-color: #f9f3e5;
+        border-radius: 5%;
+    }
+    .fth-section .card h5{
+        color: #5c8271;
+        font-weight: bold;
+    }
+    .fth-section .card h6{
+        color: #5c8271;
+    }
+    .fth-section .card p{
+        color: #4aaf82;
+    }
+    /* fifth section */
+    .fi-section img{
+        height: 200px; 
+        object-fit: cover;
+        width: 100%;
+    }
+    .fi-section{
+        background-color: #f9f3e5;
+        color: #a86446;
+    }
+    .fi-section h2{
+        font-weight: bold;
+    }
+    /* sixth section */
+    .sth-section{
+        background-color: #5c8271;
+    }
+    .sth-section .card{
+        background-color: #f9f3e5;
+        color: #a86446;
+        border-radius: 5%;
+    }
+    /* seven ssction */
+    .seth-section{
+        background-color: #a86446;
+    }
+    .seth-section .card{
+        background-color: #f9f3e5;
+        color: #a86446;
+    }
+    .seth-section h1{
+        color: #f9f3e5;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .seth-section h2{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .seth-section p{
+        font-size: 20px;
+    }
+    .seth-section .socials{
+        border-top: 1px solid #a86446;
+        font-weight: bold;
+    }
+    .seth-section img{
+        height: 50px; 
+        object-fit: cover;
+    }
+    @media only screen and (max-width: 747px) {
+        .t-section .edit-section p{
+            color: #a86446;
+            font-size: 15px;
+        }
+        .t-section .edit-section .col-lg-6{
+            margin-top: 32px;
+        }
+    }
+    @media(min-width: 992px){
+        h1{
+            font-size: 40px;
+            font-weight: 800;
+        }
+        .s-section p{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 800;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- first section -->
+        <div class="row pb-5 f-section d-flex justify-content-center">
+            <div class="col-lg-3 col-md-8 p-5">
+                <h1 class="mt-lg-5 mb-lg-5 w-75">Zushi Fernandez</h1>
+                <h2 class="mb-lg-5" >Web Developer</h2>
+                <a  href="#" class="btn-lg btn">Reach Out!</a>
+            </div>
+            <div class="col-lg-5 col-md-8 mt-5 pl-lg-5 ml-lg-5">
+                <img class="img-fluid w-100 rounded-circle h-100" src="./img/Zushi.PNG" alt="profile">
+            </div>
+        </div>
+        <!-- second section -->
+        <div class="row p-5 s-section d-flex justify-content-center">
+            <div class="col-lg-3 col-md-8 m-lg-5 ">
+                <h6 class="mb-5 pb-4">WHO I AM</h6>
+                <h1 class="w-50 mt-md-5 mb-5">About Me (he/him)</h1>
+                <p class="w-100 mt-md-5 pt-lg-5 mb-5" >I am a licensed architect with years of experience in the industry. I've worked on a wide range of projects, from residential and commercial to mixed-use developments. My goal is to create structures that will last a long time  and will be utilized by many generations to come.</p>
+            </div>
+            <div class="col-lg-5 col-md-8 pl-lg-5 ml-lg-5">
+                <img class="img-fluid h-100" src="./img/s-image.jpg" alt="profile">
+            </div>
+        </div>
+        <!-- third section -->
+        <div class="row t-section d-flex justify-content-center pb-5">
+            <h2 class="col-lg-8 m-5">Relevant Experience</h2>
+            <div class="col-lg-8 col-md-7 col-sm-9 d-lg-flex mt-lg-5 mb-lg-5">
+                <div class="card mr-lg-5 p-4 col-lg-6 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title pb-4">2025 SEN  IOR ARCHITECT</h5>
+                      <h6 class="card-subtitle pb-3 ">Liz Flamhaff Designs</h6>
+                      <p class="card-text pb-5">Oversees the design of all the company's projects, from the consultation stage to space planning and design development. Holds client meetings regularly and coordinates with the engineering team. Supervises projects of junior associates, guiding them, to ensure that deadlines are met and quality is delivered.</p>
+                    </div>
+                </div>
+                <div class="card ml-lg-1 p-4 col-lg-6 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title pb-4">2022 DESIGN ARCHITECT</h5>
+                      <h6 class="card-subtitle pb-3">Hendles Builders</h6>
+                      <p class="card-text pb-5">Worked hand in hand with the principal architect to present decks to clients. Accomplished working drawings and contract documents for residential, commercial, and industrial projects. Also attended ocular inspections and meetings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-9 d-lg-flex mt-lg-5">
+                <div class="card mr-lg-5 p-4 col-lg-6 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title pb-4">2025 SENIOR ARCHITECT</h5>
+                      <h6 class="card-subtitle pb-3 ">Liz Flamhaff Designs</h6>
+                      <p class="card-text pb-5">Oversees the design of all the company's projects, from the consultation stage to space planning and design development. Holds client meetings regularly and coordinates with the engineering team. Supervises projects of junior associates, guiding them, to ensure that deadlines are met and quality is delivered.</p>
+                    </div>
+                </div>
+                <div class="card ml-lg-1 p-4 col-lg-6 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title pb-4">2019 DESIGN ASSOCIATE</h5>
+                      <h6 class="card-subtitle pb-3">Vandemar Construction</h6>
+                      <p class="card-text pb-5">Supervised site execution and implementation. Handled family residences and condominium units. Participated in the entire design process – from site ocular, planning, and production, to construction, execution, and documentation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-11 mt-3 ml-lg-5 ">
+                <div class="plan card">
+                    <img src="./img/plan.jpg" class="w-100 img-fluid" style="height:250px; object-fit: cover;">
+                    <div class="card-body d-md-flex p-lg-4">
+                        <h3 class="col-md-5 p-lg-5 p-md-4">Education, Certification, Awards, and Others Projects</h3>
+                        <div class="col-md-7">
+                            <h6 class="mt-sm-3">DE LOUREIGH UNIVERSITY</h6>
+                            <p>Bachelor of Science in Architecture, 2019</p>
+                            <p>I was qualified and chosen for a scholarship upon admission. I joined several organizations during my stay and became chairperson of our university's design society. I was the batch representative during my final year and I graduated with high honors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 d-md-flex m-md-5 edit-section">
+                <div class="col-lg-6 mr-5 mt-4">
+                    <h6>RANDELO EDITOR</h6>
+                    <p>A week-long official course, 2018</p>
+                    <p>I accomplished the course on Randelo Editor after a full week. I learned from experts in the industry and earned my license.</p>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <h6>ARCHITECTURE PRIZE</h6>
+                    <p>Architectural Design, 2019</p>
+                    <p>I designed a co-working space that used to be old shipping containers, and won an award at a prestigious event for it.</p>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12 d-md-flex m-md-5 edit-section">
+                <div class="col-lg-6 mr-5 ">
+                    <h6>ARICAVI SKETCH</h6>
+                    <p>Arivaci & Co., 2017</p>
+                    <p>I accomplished a course on Aricavi Sketch for 2D and 3D drawing. I now use these skills in my day-to-day work.</p>
+                </div>
+                <div class="col-lg-6">
+                    <h6>ARCHITECTURE PRIZE</h6>
+                    <p>Architectural Design, 2019</p>
+                    <p>I designed a co-working space that used to be old shipping containers, and won an award at a prestigious event for it.</p>
+                </div>
+            </div>
+        </div>
+        <!-- 4th section -->
+        <div class="row fth-section d-flex justify-content-center ">
+            <h1 class="col-lg-8 m-5 text-center">Skills & Proficiencies</h1>
+            <div class="col-lg-8 col-md-7 col-sm-8 d-lg-flex mt-lg-4 mb-lg-5">
+                <div class="card mr-lg-5 p-2 p-lg-4 col-lg-6 mb-4">
+                    <div class="card-body">
+                      <h5 class="card-title pb-4">DESIGN SOFTWARE</h5>
+                      <h6 class="card-subtitle pb-2">Aricavi Sketch</h6>
+                      <p class="card-text pb-3">Strong background in creating 2D drawings</p>
+                      <h6 class="card-subtitle pb-2">Computer-Aided Design (CAD)</h6>
+                      <p class="card-text pb-3">Experience with 3D Modeling Design</p>
+                      <h6 class="card-subtitle pb-2 ">Randelo Editor</h6>
+                      <p class="card-text pb-3">High proficiency in Building Information Modeling</p>
+                    </div>
+                </div>
+                <div class="card mr-lg-5 p-2 p-lg-4  col-lg-6 mb-4">
+                    <div class="card-body">
+                      <h5 class="card-title pb-4">OTHER SKILLS</h5>
+                      <h6 class="card-subtitle pb-2">Picturax</h6>
+                      <p class="card-text pb-3">Basic photo editing</p>
+                      <h6 class="card-subtitle pb-2">Videowix</h6>
+                      <p class="card-text pb-3">Basic video editing</p>
+                      <h6 class="card-subtitle pb-2 ">Anissa Office Suite</h6>
+                      <p class="card-text pb-3">Documents, spreadsheets, presentations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 5th section -->
+        <div class="row fi-section d-flex justify-content-center pb-5 ">
+            <h2 class="col-lg-8 col-md-9 m-5">Selected Works</h2>
+            <div class="col-lg-8 col-md-9 col-sm-9  d-flex justify-content-center justify-content-between pb-lg-5" style="flex-wrap: wrap;">
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <img class="card-img-top img-fluid rounded" src="./img/pic-1.jpg" alt="Card image cap">
+                    <div class="pt-3">
+                      <h5 class="card-title">Salon and Spa</h5>
+                      <p class="card-text">A 700-square-meter commercial space</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <img class="card-img-top img-fluid rounded" src="./img/p-2.png" alt="Card image cap">
+                    <div class="pt-3">
+                      <h5 class="card-title">Vacation Home</h5>
+                      <p class="card-text">A California-style three-bedroom home</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <img class="card-img-top img-fluid rounded" src="./img/p-3.webp" alt="Card image cap">
+                    <div class="pt-3">
+                      <h5 class="card-title">Condominium Unit</h5>
+                      <p class="card-text">A 2,000-square-meter condominium unit</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <img class="card-title img-fluid rounded" src="./img/p-4.webp" alt="Card image cap">
+                    <div class="">
+                      <h5 class="card-title">Dormitory</h5>
+                      <p class="card-text">A two-story dormitory inside a university</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <img class="card-img-top img-fluid rounded" src="./img/p-5.jpg" alt="Card image cap">
+                    <div class="pt-3">
+                      <h5 class="card-title">Commercial-Residential Tower</h5>
+                      <p class="card-text">A 30-story high-rise building in the city</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 col-md-6">
+                    <img class="card-img-top img-fluid rounded" src="./img/p-6.jpg" alt="Card image cap" >
+                    <div class="pt-3">
+                      <h5 class="card-title">Tropical Resort</h5>
+                      <p class="card-text">A beach resort offering villas and pools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sixth section -->
+        <div class="row sth-section d-flex justify-content-center pt-5">
+            <div class="col-lg-8 col-md-7 col-sm-8 d-lg-flex mt-lg-4 mb-lg-5">
+                <div class="card mr-lg-5 p-2 p-lg-4 col-lg-6 mb-4">
+                    <div class="card-body">
+                       <h5 class="card-title pb-4">"I've worked with Pedro on several projects. He is detail-oriented and he shows a lot of initiative and dedication to his job. He settles for nothing less than perfection. It was a pleasure working with him."</h5>
+                       <div class="col d-flex align-items-center">
+                            <div class="col-lg-6">
+                                <h6 class="card-text pb-3">Olivia Wilson</h6>
+                                <h5 class="card-subtitle pb-2">ARCHITECT</h5>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="./img/g-1-modified.png" alt="" class="img-fluid w-lg-50 rounded-circle">
+                            </div>
+                       </div>
+
+                    </div>
+                </div>
+                <div class="card mr-lg-5 p-2 p-lg-4 col-lg-6 mb-4">
+                    <div class="card-body">
+                       <h5 class="card-title pb-4">"I've worked with Pedro on several projects. He is detail-oriented and he shows a lot of initiative and dedication to his job. He settles for nothing less than perfection. It was a pleasure working with him."</h5>
+                       <div class="col d-flex align-items-center">
+                            <div class="col-lg-6">
+                                <h6 class="card-text pb-3">Olivia Wilson</h6>
+                                <h5 class="card-subtitle pb-2">ARCHITECT</h5>
+                            </div>
+                            <div class="col-lg-6">
+                                <img src="./img/g-1-modified.png" alt="" class="img-fluid w-lg-50 rounded-circle">
+                            </div>
+                       </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- seventh section -->
+        <div class="row seth-section d-flex justify-content-center pt-5">
+            <h1 class="col-lg-8 m-lg-5">Connect with me</h1>
+            <div class="col-lg-8 col-md-11 col-sm-8 d-lg-flex mt-lg-4 mb-lg-5 ml-lg-3">
+                <div class="card mr-lg-5  p-4 col-lg-12 mb-4">
+                    <div class="card-body">
+                      <h2 class="card-title pb-4">Perdro Fernandes</h2>
+                      <div class="col-lg-12 d-lg-flex justify-content-between pb-5">
+                        <p>hello@reallygreatsite.com</p>
+                        <p>+123-456-7890</p>
+                        <p>www.reallygreatsite.com</p>
+                      </div>
+                      <div class="row d-lg-flex socials pt-5 align-items-center justify-content-between">
+                        <div class="col">
+                            <h5 class="font-weight-bold">Find my resume <a href="#">here</a></h5>
+                        </div>
+                        <h6 class="font-weight-bold">LET'S GET SOCIAL</h6>
+                        <div class="col-lg-4 col-sm-12 mt-3 d-flex justify-content-between">
+                            
+                            <img src="./img/ig.svg" alt="" class=" img-fluid">
+                            <img src="./img/twi.svg" alt="" class=" img-fluid">
+                            <img src="./img/fb.svg" alt="" class=" img-fluid">
+                            <img src="./img/linkedin.svg" alt="" class="img-fluid">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
